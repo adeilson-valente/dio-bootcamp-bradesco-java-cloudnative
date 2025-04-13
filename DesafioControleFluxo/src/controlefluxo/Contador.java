@@ -1,3 +1,6 @@
+package controlefluxo;
+
+import excessao.ParametrosInvalidosException;
 import java.util.Scanner;
 
 public class Contador {
