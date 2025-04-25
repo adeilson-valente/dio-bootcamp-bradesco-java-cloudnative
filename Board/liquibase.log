@@ -1,60 +1,39 @@
-abr. 25, 2025 12:00:41 PM liquibase.changelog
+abr. 25, 2025 7:51:53 PM liquibase.changelog
 INFO: Reading resource: db/changelog/migrations/db.changelog-20250424.sql
-abr. 25, 2025 12:00:41 PM liquibase.changelog
+abr. 25, 2025 7:51:53 PM liquibase.changelog
 INFO: Reading resource: db/changelog/migrations/db.changelog-202504251.sql
-abr. 25, 2025 12:00:41 PM liquibase.changelog
+abr. 25, 2025 7:51:53 PM liquibase.changelog
 INFO: Reading resource: db/changelog/migrations/db.changelog-202504252.sql
-abr. 25, 2025 12:00:41 PM liquibase.changelog
+abr. 25, 2025 7:51:53 PM liquibase.changelog
 INFO: Reading resource: db/changelog/migrations/db.changelog-202504253.sql
-abr. 25, 2025 12:00:41 PM liquibase.changelog
+abr. 25, 2025 7:51:53 PM liquibase.changelog
 INFO: Reading from board.databasechangelog
-abr. 25, 2025 12:00:41 PM liquibase.lockservice
-INFO: Successfully acquired change log lock
-abr. 25, 2025 12:00:41 PM liquibase.command
-INFO: Using deploymentId: 5593241368
-abr. 25, 2025 12:00:41 PM liquibase.changelog
+Database is up to date, no changesets to execute
+abr. 25, 2025 7:51:53 PM liquibase.changelog
 INFO: Reading from board.databasechangelog
-Running Changeset: db/changelog/migrations/db.changelog-202504251.sql::202408191938::junior
-abr. 25, 2025 12:00:41 PM liquibase.changelog
-INFO: Custom SQL executed
-abr. 25, 2025 12:00:41 PM liquibase.changelog
-INFO: ChangeSet db/changelog/migrations/db.changelog-202504251.sql::202408191938::junior ran successfully in 35ms
-Running Changeset: db/changelog/migrations/db.changelog-202504252.sql::202408191938::junior
-abr. 25, 2025 12:00:41 PM liquibase.changelog
-INFO: Custom SQL executed
-abr. 25, 2025 12:00:41 PM liquibase.changelog
-INFO: ChangeSet db/changelog/migrations/db.changelog-202504252.sql::202408191938::junior ran successfully in 22ms
-Running Changeset: db/changelog/migrations/db.changelog-202504253.sql::202408191938::junior
-abr. 25, 2025 12:00:41 PM liquibase.changelog
-INFO: Custom SQL executed
-abr. 25, 2025 12:00:41 PM liquibase.changelog
-INFO: ChangeSet db/changelog/migrations/db.changelog-202504253.sql::202408191938::junior ran successfully in 34ms
 
 UPDATE SUMMARY
-Run:                          3
-Previously run:               1
+Run:                          0
+Previously run:               4
 Filtered out:                 0
 -------------------------------
 Total change sets:            4
 
-abr. 25, 2025 12:00:41 PM liquibase.util
+abr. 25, 2025 7:51:53 PM liquibase.util
 INFO: UPDATE SUMMARY
-abr. 25, 2025 12:00:41 PM liquibase.util
-INFO: Run:                          3
-abr. 25, 2025 12:00:41 PM liquibase.util
-INFO: Previously run:               1
-abr. 25, 2025 12:00:41 PM liquibase.util
+abr. 25, 2025 7:51:53 PM liquibase.util
+INFO: Run:                          0
+abr. 25, 2025 7:51:53 PM liquibase.util
+INFO: Previously run:               4
+abr. 25, 2025 7:51:53 PM liquibase.util
 INFO: Filtered out:                 0
-abr. 25, 2025 12:00:41 PM liquibase.util
+abr. 25, 2025 7:51:53 PM liquibase.util
 INFO: -------------------------------
-abr. 25, 2025 12:00:41 PM liquibase.util
+abr. 25, 2025 7:51:53 PM liquibase.util
 INFO: Total change sets:            4
-abr. 25, 2025 12:00:41 PM liquibase.util
+abr. 25, 2025 7:51:53 PM liquibase.util
 INFO: Update summary generated
-abr. 25, 2025 12:00:41 PM liquibase.command
-INFO: Update command completed successfully.
-Liquibase: Update has been successful. Rows affected: 3
-abr. 25, 2025 12:00:41 PM liquibase.lockservice
+abr. 25, 2025 7:51:53 PM liquibase.lockservice
 INFO: Successfully released change log lock
-abr. 25, 2025 12:00:41 PM liquibase.command
+abr. 25, 2025 7:51:53 PM liquibase.command
 INFO: Command execution complete

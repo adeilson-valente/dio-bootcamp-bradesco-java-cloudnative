@@ -81,7 +81,16 @@ public class MainMenu {
     }
 
     private void selectBoard() throws SQLException {
-
+        System.out.println("Informe o id do board que deseja selecionar");
+        var id = scanner.nextLong();
+        try(var connection = getConnection()){
+            var queryService = new BoardQueryService(connection);
+            var optional = queryService.findById(id);
+            optional.ifPresentOrElse(
+                    b -> new BoardMenu(b).execute(),
+                    () -> System.out.printf("Não foi encontrado um board com id %s\n", id)
+            );
+        }
     }
 
     private void deleteBoard() throws SQLException {

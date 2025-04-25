@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-import static br.com.dio.persistence.entity.BoardColumnKindEnum.CANCEL;
-import static br.com.dio.persistence.entity.BoardColumnKindEnum.INITIAL;
+import static com.board.dio.persistence.entity.BoardColumnKindEnum.CANCEL;
+import static com.board.dio.persistence.entity.BoardColumnKindEnum.INITIAL;
 
 @Data
 public class BoardEntity {
