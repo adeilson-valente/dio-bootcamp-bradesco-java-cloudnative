@@ -1,6 +1,7 @@
 package com.board.dio.persistence.dao;
 
 import com.board.dio.dto.CardDetailsDTO;
+import com.board.dio.persistence.converter.OffsetDateTimeConverter;
 import com.board.dio.persistence.entity.CardEntity;
 import com.mysql.cj.jdbc.StatementImpl;
 import lombok.AllArgsConstructor;
@@ -72,7 +73,7 @@ public class CardDAO {
                         resultSet.getString("c.title"),
                         resultSet.getString("c.description"),
                         nonNull(resultSet.getString("b.block_reason")),
-                        toOffsetDateTime(resultSet.getTimestamp("b.blocked_at")),
+                        OffsetDateTimeConverter.toOffsetDateTime(resultSet.getTimestamp("b.blocked_at")),
                         resultSet.getString("b.block_reason"),
                         resultSet.getInt("blocks_amount"),
                         resultSet.getLong("c.board_column_id"),

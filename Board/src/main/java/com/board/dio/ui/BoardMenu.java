@@ -5,6 +5,10 @@ import com.board.dio.persistence.config.ConnetionConfig;
 import com.board.dio.persistence.entity.BoardColumnEntity;
 import com.board.dio.persistence.entity.BoardEntity;
 import com.board.dio.persistence.entity.CardEntity;
+import com.board.dio.service.BoardColumnQueryService;
+import com.board.dio.service.BoardQueryService;
+import com.board.dio.service.CardQueryService;
+import com.board.dio.service.CardService;
 import lombok.AllArgsConstructor;
 
 import java.sql.SQLException;

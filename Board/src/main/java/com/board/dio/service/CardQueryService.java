@@ -1,4 +1,4 @@
-package com.board.dio.persistence.entity;
+package com.board.dio.service;
 
 import com.board.dio.dto.CardDetailsDTO;
 import com.board.dio.persistence.dao.CardDAO;
@@ -14,7 +14,7 @@ public class CardQueryService {
     private final Connection connection;
 
     public Optional<CardDetailsDTO> findById(final Long id) throws SQLException {
-        var dao = new CardDAO(4connection);
+        var dao = new CardDAO(connection);
         return dao.findById(id);
     }
 
